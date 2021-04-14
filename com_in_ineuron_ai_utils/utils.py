@@ -6,5 +6,3 @@ def decodeSound(imgstring, fileName):
     with open(fileName, 'wb') as f:
         f.write(imgdata)
         f.close()
-
-        

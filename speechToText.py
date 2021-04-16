@@ -27,3 +27,6 @@ def speech2Text(file):
 #file.write(textdata)
 #file.writelines(L) 
 #file.close()
+
+
+

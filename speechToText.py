@@ -1,5 +1,6 @@
 import speech_recognition as sr
 
+
 def speech2Text(file):
   
     AUDIO_FILE = file

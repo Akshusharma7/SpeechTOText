@@ -24,8 +24,6 @@ def predictRoute():
     result = speechToText.speech2Text("audio123.wav")
     return jsonify({"Result" : str(result)})
 
-
-
 #port = int(os.getenv("PORT"))
 if __name__ == "__main__":
     #app.run(host='0.0.0.0', port=port)

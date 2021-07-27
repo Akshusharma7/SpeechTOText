@@ -16,6 +16,7 @@ def home():
     return render_template('index2.html')
 
 
+
 @app.route("/predict", methods=['POST'])
 @cross_origin()
 def predictRoute():
